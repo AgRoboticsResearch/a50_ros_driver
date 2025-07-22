@@ -11,3 +11,7 @@ logs/
 __pycache__/
 .catkin_tools/
 .vscode/
+README.md
+scripts/publisher.py
+scripts/subscriber.py
+scripts/subscriber_gui.py
