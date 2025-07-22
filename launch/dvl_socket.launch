@@ -1,6 +1,6 @@
 <launch>
     <!-- 启动DVL Socket Publisher节点 -->
-    <node name="dvl_socket_publisher" pkg="a50_ros_driver" type="dvl_socket_.py" output="screen">
+    <node name="dvl_socket_publisher" pkg="a50_ros_driver" type="dvl_socket_publisher.py" output="screen">
         <!-- DVL传感器的IP地址 -->
         <param name="ip_address" value="192.168.2.95"/>
         <!-- DVL传感器的端口 -->
