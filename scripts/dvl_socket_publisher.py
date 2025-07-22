@@ -8,7 +8,7 @@ import time
 from threading import Thread
 
 # 导入您的工作空间中定义的消息类型
-from waterlinked_a50_ros_driver.msg import DVL, DVLBeam, DVLDR, ConfigCommand
+from a50_ros_driver.msg import DVL, DVLBeam, DVLDR, ConfigCommand
 
 class DVLSocketPublisher:
     """
