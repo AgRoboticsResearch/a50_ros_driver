@@ -1,0 +1,13 @@
+# ROS
+build/
+devel/
+install/
+logs/
+*~
+
+# General
+*.swp
+*.pyc
+__pycache__/
+.catkin_tools/
+.vscode/
